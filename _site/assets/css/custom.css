@@ -1,0 +1,51 @@
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  letter-spacing: 0.2px;
+}
+.markdown-body p { line-height: 1.7; }
+/* nav a { text-transform: lowercase; } */
+
+/* New (only lowercase the menu items, not the title link) */
+nav a.link-secondary {
+  text-transform: lowercase;
+}
+
+
+/* Only apply to index page lists */
+.index-page .markdown-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.index-page .markdown-body li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+/* Default: empty square □ */
+.index-page .markdown-body li::before {
+  content: "□";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2em;   /* make box a bit bigger */
+  line-height: 1;
+  color: black;
+}
+
+/* On hover: ☒ (square with X inside) */
+.index-page .markdown-body li:hover::before {
+  content: "☒";
+}
+
+/* Ensure links in main content are black, not Bootstrap blue */
+main a {
+  color: black !important;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: black !important;
+  text-decoration: underline;
+}

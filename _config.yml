@@ -1,0 +1,12 @@
+title: "Soft Matter Group @ DAMTP"
+description: "Research in soft condensed matter, nonequilibrium stat mech, active matter."
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+permalink: pretty
+nav: nav

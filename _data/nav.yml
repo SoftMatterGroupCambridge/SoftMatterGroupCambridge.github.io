@@ -1,0 +1,15 @@
+- title: publications
+  external: true
+  url: https://www.damtp.cam.ac.uk/research/softmatter/publications
+- title: research
+  url: /research/
+- title: teaching
+  url: /teaching/
+- title: group
+  external: true
+  url: https://www.damtp.cam.ac.uk/research/softmatter/people
+- title: github
+  external: true
+  url: https://github.com/SoftMatterGroupCambridge
+- title: join us
+  url: /join-us/
