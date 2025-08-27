@@ -1,18 +1,13 @@
 backend:
-  name: git-gateway     # lets users log in by email via Netlify Identity
+  name: git-gateway
   branch: main
 
-media_folder: "images/img"     # where uploaded images are saved in the repo
-public_folder: "/images/img"   # how the site refers to them
+media_folder: "assets/img"
+public_folder: "/assets/img"
 
-site_url: "/"                  # safe default
-logo_url: "/images/img/logo.svg"
-
-# Optional: drafts/review before publish
 editorial_workflow: true
 
 collections:
-  # Simple “edit these pages” collection
   - label: "Pages"
     name: "pages"
     files:
@@ -20,35 +15,10 @@ collections:
         name: "index"
         file: "index.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
-      - label: "Research"
-        name: "research"
-        file: "research.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
-      - label: "Teaching"
-        name: "teaching"
-        file: "teaching.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
-      - label: "Team"
-        name: "team"
-        file: "team.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
-      - label: "Join Us"
-        name: "joinus"
-        file: "join-us.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
-      - label: "Publications"
-        name: "publications"
-        file: "publications.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body",  name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body",  name: "body",  widget: "markdown" }
+      - { label: "Research",     name: "research",     file: "research.md",     fields: [ {label: Title, name: title, widget: string}, {label: Body, name: body, widget: markdown} ] }
+      - { label: "Teaching",     name: "teaching",     file: "teaching.md",     fields: [ {label: Title, name: title, widget: string}, {label: Body, name: body, widget: markdown} ] }
+      - { label: "Team",         name: "team",         file: "team.md",         fields: [ {label: Title, name: title, widget: string}, {label: Body, name: body, widget: markdown} ] }
+      - { label: "Join Us",      name: "joinus",       file: "join-us.md",      fields: [ {label: Title, name: title, widget: string}, {label: Body, name: body, widget: markdown} ] }
+      - { label: "Publications", name: "publications", file: "publications.md", fields: [ {label: Title, name: title, widget: string}, {label: Body, name: body, widget: markdown} ] }
