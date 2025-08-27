@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway     # lets users log in by email via Netlify Identity
+  branch: main
+
+media_folder: "assets/img"     # where uploaded images are saved in the repo
+public_folder: "/assets/img"   # how the site refers to them
+
+site_url: "/"                  # safe default
+logo_url: "/assets/img/logo.svg"
+
+# Optional: drafts/review before publish
+editorial_workflow: true
+
+collections:
+  # Simple “edit these pages” collection
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home"
+        name: "index"
+        file: "index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}
+      - label: "Research"
+        name: "research"
+        file: "research.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}
+      - label: "Teaching"
+        name: "teaching"
+        file: "teaching.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}
+      - label: "Team"
+        name: "team"
+        file: "team.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}
+      - label: "Join Us"
+        name: "joinus"
+        file: "join-us.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}
+      - label: "Publications"
+        name: "publications"
+        file: "publications.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body",  name: "body", widget: "markdown"}

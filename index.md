@@ -16,7 +16,7 @@ Welcome to the Soft Matter Group at DAMTP, Cambridge! We study **soft condensed 
       <li><a href="/teaching/">Teaching</a></li>
       <li><a href="/team/">Team</a></li>
       <li><a href="/join-us/">Join us</a></li>
-      
+
     </ul>
   </div>
 
