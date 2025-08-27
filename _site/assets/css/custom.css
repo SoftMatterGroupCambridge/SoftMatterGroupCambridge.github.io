@@ -49,3 +49,28 @@ main a:hover {
   color: black !important;
   text-decoration: underline;
 }
+
+/* Content links: black with underline on hover */
+main a {
+  color: black !important;
+  text-decoration: none;
+}
+main a:hover, main a:focus {
+  color: black !important;
+  text-decoration: underline;
+}
+
+/* Keep navbar styling separate (optional) */
+header nav a {
+  color: inherit;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the decorative square/cross never blocks clicks */
+.index-page .explore-links li::before,
+.index-page .explore-links li::after {
+  pointer-events: none;
+}

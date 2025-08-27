@@ -1,7 +1,7 @@
 title: "Soft Matter Group @ DAMTP"
 description: "Research in soft condensed matter, nonequilibrium stat mech, active matter."
-url: "https://softmattergroupcambridge.github.io"
-baseurl: "/group-website"
+url: "https://SoftMatterGroupCambridge.github.io"
+baseurl: ""
 markdown: kramdown
 kramdown:
   input: GFM
