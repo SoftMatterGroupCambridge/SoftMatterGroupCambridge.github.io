@@ -22,7 +22,7 @@ Here are some of the areas in which PhD projects may be available:
 
 Please check the [DAMTP PhD admissions page](https://www.postgraduate.study.cam.ac.uk/courses/directory/maampdmtp) for details on how to apply.
 
-##### P**ostdoctoral researchers**
+##### **Postdoctoral researchers**
 Opportunities may be available through fellowships (e.g. Royal Society, Marie Skłodowska-Curie, Leverhulme). Contact us to discuss possibilities.
 
 The group has recently been awarded a £1.2M UKRI Grant to study Nucleation and Extinction in Non-equilibrium Statistical Field Theories. This will fund two postdoctoral research fellows for the next four years.
