@@ -4,7 +4,7 @@ title: Soft Matter Group @ DAMTP
 page_class: index-page
 ---
 
-Welcome to the Soft Matter Group at DAMTP, Cambridge! We study **soft condensed matter**, with interests including polymers, nucleation, extinction, **active matter**, and other topcs in statistical physics in and out of equilibrium.
+Welcome to the Soft Matter Group at DAMTP, Cambridge! We study **soft condensed matter**, with interests including nucleation, extinction, **active matter**, and other topcs in statistical physics in and out of equilibrium.
 
 
 <div class="row align-items-start mt-4">
