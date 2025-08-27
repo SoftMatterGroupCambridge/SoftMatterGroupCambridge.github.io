@@ -12,4 +12,4 @@
   external: true
   url: https://github.com/SoftMatterGroupCambridge
 - title: join us
-  url: /join-us/
+  url: {{ '/join-us/' | relative_url }}
