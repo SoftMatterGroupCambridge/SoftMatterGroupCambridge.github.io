@@ -2,11 +2,11 @@ backend:
   name: git-gateway     # lets users log in by email via Netlify Identity
   branch: main
 
-media_folder: "assets/img"     # where uploaded images are saved in the repo
-public_folder: "/assets/img"   # how the site refers to them
+media_folder: "images/img"     # where uploaded images are saved in the repo
+public_folder: "/images/img"   # how the site refers to them
 
 site_url: "/"                  # safe default
-logo_url: "/assets/img/logo.svg"
+logo_url: "/images/img/logo.svg"
 
 # Optional: drafts/review before publish
 editorial_workflow: true
