@@ -30,6 +30,30 @@
       © {{ "now" | date: "%Y" }} Soft Matter Group, DAMTP · University of Cambridge
     </footer>
 
+    <div id="nocookie-banner" style="
+      display:none;
+      position:fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      background:#222;
+      color:#fff;
+      padding:12px 20px;
+      font-size:14px;
+      z-index:9999;
+    ">
+      This website does not use cookies or tracking technologies.
+      <button id="nocookie-dismiss" style="
+        background:#fff;
+        color:#000;
+        border:none;
+        padding:6px 12px;
+        margin-left:10px;
+        cursor:pointer;
+        border-radius:4px;
+      ">Dismiss</button>
+    </div>
+
     <script>
     document.addEventListener("DOMContentLoaded", function () {
       if (!localStorage.getItem("nocookieBannerDismissed")) {
