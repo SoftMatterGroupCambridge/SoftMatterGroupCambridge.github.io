@@ -29,6 +29,20 @@
     <footer class="container py-4 text-center text-muted small">
       © {{ "now" | date: "%Y" }} Soft Matter Group, DAMTP · University of Cambridge
     </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (!localStorage.getItem("nocookieBannerDismissed")) {
+        document.getElementById("nocookie-banner").style.display = "block";
+      }
+
+      document.getElementById("nocookie-dismiss").onclick = function () {
+        localStorage.setItem("nocookieBannerDismissed", "yes");
+        document.getElementById("nocookie-banner").style.display = "none";
+      };
+    });
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
