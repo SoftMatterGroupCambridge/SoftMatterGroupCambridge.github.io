@@ -3,7 +3,7 @@ layout: default
 title: join us
 permalink: /join-us/
 ---
-Professor Mike Cates, appointed in 2015 as the Lucasian Professor of Mathematics, is head of the Soft Matter Research Group in DAMTP. The other permanent academic staff are Dr Ronojoy Adhikari, and Prof. Rob Jack (joint appointment with Chemistry Department). At any time the group has a number of self-funded research fellows and/or grant-funded postdocs, plus typically 5-10 PhD students. 
+Professor Michael Cates, appointed in 2015 as the Lucasian Professor of Mathematics, is head of the Soft Matter Research Group in DAMTP. The other permanent academic staff are Dr Ronojoy Adhikari, and Prof. Rob Jack (joint appointment with Chemistry Department). At any time the group has a number of self-funded research fellows and/or grant-funded postdocs, plus typically 5-10 PhD students. 
 
 We are always looking for motivated students, postdocs, and visitors to join the **Soft Matter Group**.  
 
